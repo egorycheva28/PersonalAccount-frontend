@@ -1,0 +1,87 @@
+.notification {
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+    z-index: 1000;
+}
+
+.notificationItem {
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.successStatus,
+.errorStatus,
+.informationStatus,
+.warningStatus {
+    width: 212px;
+    height: 24px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+.successStatus {
+    background-color: #39882C4D;
+    color: #39882C;
+}
+
+.errorStatus {
+    background-color: #FF57574D;
+    color: #FF5757;
+}
+
+.informationStatus {
+    background-color: #2196F34D;
+    color: #2196F3;
+}
+
+.warningStatus {
+    background-color: #E784004D;
+    color: #E78400;
+}
+
+.textIcon {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.icon,
+.closeIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.closeIcon {
+    cursor: pointer;
+}
+
+.messageBlock {
+    width: 212px;
+    height: auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 12px 24px;
+    display: flex;
+    gap: 10px;
+    background-color: #F9F9F9;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #393939;
+    text-align: left;
+}

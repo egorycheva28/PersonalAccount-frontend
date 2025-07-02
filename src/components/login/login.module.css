@@ -1,0 +1,175 @@
+.loginContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #EFEFEF;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.picture {
+    flex: 1 1 300px;
+}
+
+.picture img {
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.login {
+    flex: 1 1 300px;
+    background-color: white;
+    padding: 5vh 1vw;
+    border-radius: 20px;
+    max-width: 622px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    align-items: center;
+    letter-spacing: 0%;
+    margin-bottom: 3vh;
+}
+
+.emailForm,
+.passwordForm {
+    position: relative;
+    margin-bottom: 2vh;
+}
+
+.emailForm label,
+.passwordForm label {
+    position: absolute;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    top: -0.6em;
+    left: 1em;
+    background-color: white;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    color: #9D9D9D;
+}
+
+.emailInput,
+.passwordInput {
+    width: 100%;
+    height: 7.4vh;
+    padding: 1vh;
+    border: 1px solid #3A3A3A80;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.loginButton {
+    width: 100%;
+    height: 4.9vh;
+    border-radius: 8px;
+    padding: 1vh 2vw;
+    border: none;
+    background-color: #375FFF;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 18.78px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    cursor: pointer;
+}
+
+.switchText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 2vh;
+}
+
+.text {
+    font-family: Ralewey;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #949494;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 3em;
+    height: 1.5em;
+    border-radius: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    /*внешняя часть*/
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    /*внутренняя часть*/
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    /*отвечает за цвет ползунка во включенном состоянии*/
+    background-color: #375FFF;
+}
+
+input:checked+.slider:before {
+    /*отвечает за движение ползунка*/
+    transform: translateX(22px);
+}
+
+.error {
+    display: flex;
+    text-align: left;
+    font-size: 0.875rem;
+    color: red;
+}
+
+@media (min-width: 1600px) {
+    .loginContainer {
+        padding: 0 9.5rem;
+    }
+}

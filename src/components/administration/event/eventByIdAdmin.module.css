@@ -1,0 +1,567 @@
+.eventByIdAdminContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 150px;
+}
+
+.informationeventByIdAdmin {
+    position: relative;
+    top: 87px;
+    left: 152px;
+    gap: 1.5rem;
+    width: 80%;
+}
+
+.headerPage {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+    position: relative;
+    top: 43px;
+    left: 152px;
+    width: 70%;
+    word-break: break-all;
+}
+
+.links {
+    position: relative;
+    top: 80px;
+    left: 152px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.linkPage {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+    cursor: pointer;
+}
+
+.linkPage2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #375FFF;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.header {
+    width: 83%;
+    height: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.title {
+    width: 80%;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+    padding-bottom: 1rem;
+}
+
+.iconsForm1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3.4rem;
+    position: relative;
+    top: 45px;
+}
+
+.iconsForm2 {
+    display: flex;
+    flex-direction: row;
+    gap: 3.4rem;
+}
+
+.statuses {
+    width: 127px;
+    height: auto;
+    border-radius: 8px;
+    padding: 0.75rem 0.5rem;
+    display: flex;
+    gap: 0.25rem;
+    background-color: #F9F9F9;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    border: 1px solid #3A3A3A;
+    z-index: 30;
+}
+
+.draft,
+.actual,
+.archive,
+.finished {
+    width: 109px;
+    height: 1.5rem;
+    border-radius: 8px;
+    padding: 0.3rem 0.75rem;
+    display: flex;
+    gap: 0.4rem;
+    cursor: pointer;
+    align-items: center;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #F9F9F9;
+    justify-content: center;
+}
+
+.draft {
+    background-color: #9C9C9C;
+}
+
+.actual {
+    background-color: #A0D000;
+}
+
+.archive {
+    background-color: #3A3A3A;
+}
+
+.finished {
+    background-color: #46B34A;
+}
+
+.icons {
+    width: 3.5rem;
+    height: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.editIcon,
+.deleteIcon,
+.openIcon,
+.statusIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.content {
+    width: 80%;
+    border-radius: 8px;
+    padding: 1.75rem 2rem;
+    display: flex;
+    gap: 0.75rem;
+    background-color: #F9F9F9;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.picture {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.row,
+.row5 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    height: auto;
+}
+
+.row2,
+.row6 {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.row3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: row;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionHeader {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+}
+
+.descriptionText {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+    display: flex;
+    word-break: break-all;
+    flex-direction: column;
+}
+
+.line1,
+.line3 {
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
+}
+
+.line2 {
+    width: 100%;
+    height: 1px;
+    background-color: #DFDFDF;
+}
+
+.registrationRequiredForm,
+.registrationEndDateForm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.typeOfEventForm,
+.targetAudienceForm,
+.dateOfEventForm,
+.formatOfTheEventsForm,
+.longitudeForm,
+.latitudeForm,
+.addressForm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.column {
+    width: 50%;
+    height: auto;
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+}
+
+.typeOfEventForm2,
+.targetAudienceForm2,
+.dateOfEventForm2,
+.formatOfTheEventsForm2,
+.registrationRequiredForm2,
+.registrationEndDateForm2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.text {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #666666;
+}
+
+.answer {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3A3A3A;
+    word-break: break-all;
+}
+
+.participants {
+    width: 100%;
+}
+
+.headerParticipants {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    gap: 0.5rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    overflow-x: auto;
+}
+
+.headerParticipants::-webkit-scrollbar {
+    display: none;
+}
+
+.listParticipants1 {
+    width: 100%;
+    position: relative;
+    top: 21px;
+    border-radius: 4px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.listParticipants2 {
+    width: 100%;
+    position: relative;
+    top: 11px;
+    border-radius: 4px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.participantItem1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.participantItem2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.participantForm {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.nameParticipant {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #3A3A3A;
+    word-break: break-all;
+}
+
+.emailParticipant,
+.emailParticipant2 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #666666;
+    word-break: break-all;
+}
+
+.emailParticipant2 {
+    color: #3A3A3A;
+}
+
+.avatarParticipant {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    display: flex;
+    gap: 6.15px;
+}
+
+.internalParticipantsOn,
+.internalParticipantsOff {
+    width: 222px;
+    height: auto;
+    border-bottom: 3px solid transparent;
+    border-color: #375FFF;
+    padding: 1.25rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.internalParticipantsOff {
+    border-bottom: 3px none transparent;
+}
+
+.internalParticipantsHeaderOn,
+.internalParticipantsHeaderOff {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #375FFF;
+}
+
+.internalParticipantsHeaderOff {
+    color: #666666;
+}
+
+.externalParticipantsOn,
+.externalParticipantsOff {
+    width: 193px;
+    height: auto;
+    border-bottom: 3px solid transparent;
+    border-color: #375FFF;
+    padding: 1.25rem 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.externalParticipantsOff {
+    border-bottom: 3px none transparent;
+}
+
+.externalParticipantsHeaderOn,
+.externalParticipantsHeaderOff {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #375FFF;
+}
+
+.externalParticipantsHeaderOff {
+    color: #666666;
+}
+
+.form1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.form2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.75rem;
+    flex-direction: column;
+}
+
+.line5 {
+    width: 100%;
+    display: none;
+    height: 1px;
+    background-color: #DFDFDF;
+}
+
+@media (max-width: 1200px) {
+    .headerPage {
+        top: 108px;
+        left: 70px;
+    }
+
+    .links {
+        top: 140px;
+        left: 70px;
+    }
+
+    .informationeventByIdAdmin {
+        top: 145px;
+        left: 70px;
+    }
+}
+
+@media (max-width: 900px) {
+    .eventByIdAdminContainer {
+        margin-bottom: 80px;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: none;
+        width: 90%;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .content {
+        top: 50px;
+    }
+
+    .iconsForm1,
+    .iconsForm2 {
+        top: -30px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerPage {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .headerPage {
+        font-size: 1.5rem;
+    }
+
+    .row2,
+    .row3,
+    .row5 {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .line5 {
+        display: flex;
+    }
+}

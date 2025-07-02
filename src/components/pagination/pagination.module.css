@@ -1,0 +1,28 @@
+.number1,
+.number2 {
+    width: 9px;
+    height: 11px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #3A3A3A;
+}
+
+.number1:hover {
+    color: #375FFF;
+}
+
+.number2 {
+    color: #375FFF;
+}
+
+.letterIcons {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    gap: 10px;
+    border-radius: 62px;
+}
